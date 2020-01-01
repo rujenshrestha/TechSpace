@@ -1,0 +1,498 @@
+/* --------- TAGNAME SELECTOR CSS BEGIN------------------- */
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+input {
+	text-decoration:none;
+}
+
+form {
+	display: inline-block;
+	border-radius: 2vw;
+	padding: 1.2vw;
+}
+
+button {
+	border-radius: 0.7vw;
+	border: none;
+	height: auto;
+	width: auto;
+	padding: 1vw;
+	color: rgb(255, 255, 255);
+}
+
+hr {
+	color: grey;
+	margin-bottom: 1.5vw;
+}
+
+label, a {
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2vw;
+}
+
+a {
+	text-decoration:none;
+	color: rgb(50, 20, 150);
+}
+
+a img {
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+
+::placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+	opacity: 0.6;
+	color: grey;
+}
+
+header {
+	font-family: 'Montserrat', sans-serif;
+	background-color: yellow;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	height:30vh;
+	background: rgb(35,35,35);
+	font-family: 'Cabin', sans-serif;
+	padding: 0.3vw;
+}
+/* --------- TAGNAME SELECTOR CSS END------------------- */
+/* --------- DIV SELECTOR CSS BEGIN------------------- */
+.div-body {
+	height: auto;
+	width: auto;
+	/*background-color:rgb(248,248,255);*/
+	background-color:white;
+   	padding:0;
+  	margin:0;
+}
+
+.div-common-head {
+	background: rgb(52, 54, 56);
+	position:static;
+	display: flex;
+	height: 8vh;
+	width: 100%;
+	color: black;
+  	padding:0;
+  	margin:0;
+}
+
+.div-logo {
+	width: 15%;;
+  	height:auto;
+	display: inline-block;
+	border-right: 0.2vw solid rgb(25,25,25);
+	text-align: center;
+	padding: 1vh 1vw;
+	margin: 0;
+}
+
+.a-logo{
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.8vw;
+	text-decoration:none;
+}
+
+.a-logo:hover {
+	text-decoration:none;
+}
+
+.div-properties {
+	width: 85%;
+	display: inline-block;
+	text-align: left;
+	padding: 0.3vw;
+}
+
+.div-navbar {
+	width:40%;
+	height:8vh;
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+.div-home {
+  	display: inline-block;
+	padding-top:1vh;
+	margin-right:5vw;
+	text-align: center;
+}
+
+.div-home a{
+	text-decoration:none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+}
+
+.div-techs {
+  	display: inline-block;
+	padding-top:1vh;
+	margin-right:5vw;
+}
+
+.btn-techs {
+  	background-color: rgb(125,125,125,0);
+  	color: white;
+  	padding:0;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+  	border: none;
+}
+
+.div-techs-content {
+  	display: none;
+  	position: absolute;
+  	background-color: rgb(245,245,245);
+	width: 15vw;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+
+.div-techs-content a {
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+  	display: block;
+}
+
+.div-techs-content a:hover {
+	background-color: #ddd;
+}
+
+.div-techs:hover .div-techs-content {
+	display: block;
+}
+
+.div-menu {
+  	display: inline-block;
+	padding-top:1vh;
+	margin-right:5vw;
+}
+
+.btn-menu {
+  	background-color: rgb(125,125,125,0);
+  	color: white;
+  	padding:0;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+  	border: none;
+}
+
+.div-menu-content {
+  	display: none;
+  	position: absolute;
+  	background-color: rgb(245,245,245);
+	width: 15vw;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+	/*right: 0;*/
+}
+
+.div-menu-content a {
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+  	display: block;
+}
+
+.div-menu-content a:hover {
+	background-color: #ddd;
+}
+
+.div-menu:hover .div-menu-content {
+	display: block;
+}
+
+.logo-icon {
+	width: 8vw;
+	height: 6vh;
+	padding: 0;
+	margin-top: 0.8vh;
+}
+
+.home-icon {
+	width: 2.5vw;
+	height: 4.8vh;
+}
+
+.settings-icon {
+	width: 2.3vw;
+	height: 4.2vh;
+	margin-left: 4vw;
+}
+
+.user-icon {
+	width: 2.3vw;
+	height: 4.2vh;
+	margin-left: 4vw;
+}
+
+.div-container {
+	position: relative;
+	top: 0;
+	display: inline-block;
+	width: 25%;
+	margin: 0;
+}
+
+.div-about header {
+	font-size: 3vw;
+}
+
+.div-about p {
+	font-size: 1.3vw;
+	text-align: left;
+	font-family: 'Cabin', sans-serif;
+}
+
+
+.div-slider {
+	background-image: linear-gradient(to right, rgb(70,130,180) , rgb(135,206,250));
+	width:100%;
+	height:auto;
+	padding:0;
+	margin:0;
+}
+
+.div-slider-img {
+	background-image: url('http://localhost:8080/techspace/slider_img/slider_1.jpg');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: contain;
+	width:100%;
+	height:45vh;
+	margin:0 auto;
+}
+
+.div-dashboard {
+	width:100%;
+	height:auto;
+  	display:flex;
+	margin:0 auto;
+	padding:0;
+	padding-top:1vh;
+   	box-shadow: inset 1px 4px 9px -6px;
+}
+
+.div-filter{
+	width:21%;
+	height:auto;
+}
+
+.div-main-content{
+	width:63%;
+	height:auto;
+	padding:0;
+	margin:0;
+	margin-top:1vh;
+	margin-bottom:1vh;
+	border-left: 0.3vw solid rgb(240,240,240);
+}
+
+.div-unknown {
+	width:16%;
+	height:80vh;
+	margin-left:0.5vw;
+	margin-right:0.5vw;
+	padding:0;
+}
+
+.div-search-sort{
+	width:100%;
+	height:8vh;
+	padding-top:1vh;
+	border-bottom: 0.2vw solid rgb(240,240,240);
+	display:flex;
+}
+
+.div-search{
+	width:65%;
+	height:auto;
+	margin:0;
+	padding:0;
+	margin-left:2vw;
+}
+
+.search-form{
+	margin:0;
+	padding:0;
+}
+
+.search-bar {
+	width: 35vw;
+	height: 5.2vh;
+	margin:0;
+	padding:0;
+	padding-left:1vw;
+	padding-right:2vw;
+	border: 1px solid grey;
+	border-radius: 0.8vw 0 0 0.8vw;
+	font-size: 1.3vw;
+	text-align: left;
+	font-family: 'Cabin', sans-serif;
+}
+
+.search-btn {
+	background-color:#0b7dda;
+	width:3vw;
+	height:5.2vh;
+	margin:0;
+	padding:0;
+	border-radius:0 0.8vw 0.8vw 0;
+	float: right;
+}
+
+.div-sort {
+  	width:15%;
+	height:auto;
+	margin:0;
+	padding:0;
+	margin-left:3vw;
+}
+
+.btn-sort {
+  	padding:2px;
+	text-align: center;
+}
+
+.div-sort-content {
+  	display: none;
+  	position: absolute;
+  	background-color:white;
+	width: 10vw;
+	border: 1px solid grey;
+}
+
+.div-sort-content a {
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+
+.div-sort-content a:hover {
+	background-color: #ddd;
+}
+
+.div-sort:hover .div-sort-content {
+	display: block;
+}
+
+.div-display{
+	width:100%;
+	height:auto;
+	padding: 2vh 2vw;
+}
+
+.div-sub-display{
+	width:100%;
+	height:30vh;
+	display:flex;
+	margin-bottom:5vh;
+}
+
+.div-content{
+	width:12vw;
+	height:auto;
+	margin:2vh 1vw;
+	padding: 0.5%;
+	text-align:center;
+	border-radius: 25%;
+}
+
+.div-content:hover { 
+	background-color: rgb(245,245,245,0.4);
+}
+
+.div-content .img-mobile{
+	width:4vw;
+	height:14vh;
+}
+
+.div-content .lbl-mobile-name{
+	display:block;
+	font-family: 'Cabin', sans-serif;
+}
+
+.img-ad{
+	width:auto;
+	height:100%;
+	margin:0;
+}
+
+/* --------- DIV SELECTOR CSS END------------------- */
+.login-footer {
+	background-color: rgba(0, 0, 0, 0);
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.log-in {
+	background-image: url('../resource/images/body_bg_2.jpg');
+}
+
+.about-us {
+	color: rgb(255, 255, 255);
+	position: fixed;
+	right: 3vw;
+	margin-top: 1vw;
+	text-decoration: none;
+}
+
+/* --------- GENERIC FORM CSS BEGIN ------------------- */
+.form-element {
+	margin: 0.3vw 1vw 0.3vw 1vw;
+	padding: 0.5vw;
+}
+
+.form-header {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5vw;
+}
+
+.input-box {
+	background: rgb(240, 240, 240);
+	height: 3vw;
+	width: 18vw;
+	padding: 0.9vw;
+	border: 1px solid black;
+	border-radius: 0.3vw;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+
+.submit-btn {
+	background: rgb(70, 130, 180, 0.9);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1vw;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.7vw 1vw 0.7vw 1vw;
+}
+
+/* --------- CLASSNAME SELECTOR CSS END------------------- */
